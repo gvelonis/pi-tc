@@ -1,9 +1,0 @@
-import time
-import picamera
-
-
-
-with picamera.PiCamera() as cam:
-    cam.rotation = 270
-    cam.start_preview()
-    cam.
